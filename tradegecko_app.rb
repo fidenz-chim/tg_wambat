@@ -6,7 +6,7 @@ require 'active_support/core_ext/hash/indifferent_access'
 require_all 'lib'
 
 
-class TwilioApp < Sinatra::Base
+class TradeGeckoApp < Sinatra::Base
   
   post '/add_order' do
     
